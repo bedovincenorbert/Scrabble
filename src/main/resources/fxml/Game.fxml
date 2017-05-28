@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.norbi.view.Controller">
+   <children>
+      <GridPane fx:id="table" alignment="CENTER" gridLinesVisible="true" layoutX="225.0" layoutY="-4.0" prefHeight="358.0" prefWidth="484.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="140.0" AnchorPane.topAnchor="15.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <opaqueInsets>
+            <Insets right="4.0" top="1.0" />
+         </opaqueInsets>
+         <children>
+            <Label text="1" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+                       <Label text="2" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="3" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="3" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="4" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="4" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="5" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="5" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="6" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="6" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="7" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="7" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="8" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="8" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="9" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="9" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="10" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="10" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="11" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="11" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="12" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="12" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="13" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="13" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="14" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="14" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="15" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="15" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="16" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="16" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="17" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="17" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="18" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="18" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="19" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="19" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="20" textOverrun="LEADING_ELLIPSIS" GridPane.columnIndex="20" GridPane.halignment="CENTER">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label text="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="2" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="3" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="4" GridPane.halignment="CENTER" GridPane.rowIndex="4">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="5" GridPane.halignment="CENTER" GridPane.rowIndex="5">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="6" GridPane.halignment="CENTER" GridPane.rowIndex="6">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="7" GridPane.halignment="CENTER" GridPane.rowIndex="7">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+             <Label text="8" GridPane.halignment="CENTER" GridPane.rowIndex="8">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="9" GridPane.halignment="CENTER" GridPane.rowIndex="9">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="10" GridPane.halignment="CENTER" GridPane.rowIndex="10">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="11" GridPane.halignment="CENTER" GridPane.rowIndex="11">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="12" GridPane.halignment="CENTER" GridPane.rowIndex="12">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="13" GridPane.halignment="CENTER" GridPane.rowIndex="13">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="14" GridPane.halignment="CENTER" GridPane.rowIndex="14">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+                        <Label text="15" GridPane.halignment="CENTER" GridPane.rowIndex="15">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="16" GridPane.halignment="CENTER" GridPane.rowIndex="16">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="17" GridPane.halignment="CENTER" GridPane.rowIndex="17">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="18" GridPane.halignment="CENTER" GridPane.rowIndex="18">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="19" GridPane.halignment="CENTER" GridPane.rowIndex="19">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label text="20" GridPane.halignment="CENTER" GridPane.rowIndex="20">
+            
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+
+         </children>
+      </GridPane>
+      <Label fx:id="betuk" layoutX="14.0" layoutY="573.0" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Label layoutX="11.0" layoutY="540.0" text="Betűkészlet:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="szo" layoutX="239.0" layoutY="569.0" minWidth="30.0" prefHeight="25.0" />
+      <TextField fx:id="sor" layoutX="394.0" layoutY="569.0" minWidth="30.0" prefHeight="19.0" prefWidth="28.0" />
+      <TextField fx:id="oszlop" layoutX="432.0" layoutY="569.0" minWidth="0.0" prefHeight="1.0" prefWidth="30.0" />
+      <ChoiceBox fx:id="choice" layoutX="471.0" layoutY="569.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="19.0" prefHeight="25.0" prefWidth="97.0" />
+      <Button layoutX="577.0" layoutY="569.0" minWidth="7.0" mnemonicParsing="false" onAction="#send" prefHeight="25.0" text="Elküldés" />
+      <Label layoutX="239.0" layoutY="548.0" text="Elküldenő szó" />
+      <Label layoutX="391.0" layoutY="548.0" text="Sor" />
+      <Label layoutX="429.0" layoutY="548.0" text="Oszlop" />
+      <Label layoutX="481.0" layoutY="548.0" text="Irány" />
+      <Label layoutX="11.0" layoutY="477.0" text="Pontszám:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="pontszam" layoutX="14.0" layoutY="509.0" text="Label">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="jatekos" layoutX="16.0" layoutY="401.0" text="Jatekos" />
+   </children>
+</AnchorPane>
