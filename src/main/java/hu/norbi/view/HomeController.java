@@ -16,7 +16,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 /**
- * A kezdőlap vezérlé
+ * A játék kezdőlapjának vezérélését megvalósító osztály.
  * 
  * @author bedonorbert
  *
@@ -27,7 +27,10 @@ public class HomeController {
 	private BorderPane rootLayout;
 	
 	
-	
+	/**
+	 * Beállítja a {@link hu.norbi.modell.Main}-t.
+	 * @param mainApp a main.
+	 */
   public void setMainApp(Main mainApp) {
       this.mainApp = mainApp;
 
@@ -36,18 +39,18 @@ public class HomeController {
   }
 
 
-  public List<String> players=new ArrayList<String>();
+
 
 @FXML
 private void NewGame() {
-	
+	  List<String> players=new ArrayList<String>();
 	
 		players=mainApp.PlayersName();	
-	while(players.size()==0)
+	if (players.size()!=0)
 	{
-		players=mainApp.PlayersName();
+		mainApp.Game(players);
 	}
-      mainApp.Game(players);
+      
 
 }
 

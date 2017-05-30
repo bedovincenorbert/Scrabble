@@ -10,79 +10,71 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 /**
- * A játékos nevének bekérését megvalósító osztály. 
+ * A játék lerakható betűinek megváltoztatását megvalósító osztály.
  * 
  * @author Bedő Norbert
  *
  */
-public class NameController {
+public class LetterController {
 
 	@FXML
-	private TextField firstPlayer;
-	
-	@FXML
-	private TextField secondPlayer;
+	private TextField letterSize;
+	int maxLetters;
 	
 	private Stage dialogStage;
 	private boolean okClicked = false;
-	private List<String> name=new ArrayList<String>();
-	Player first, second;
 	@FXML
 	private void initialize() {
 		
 	}
 	
 	/**
-	 * Beállítja az ablakot.
-	 * 
+	 * Beállítja az ablakot, illetve megkapja a jelenlegi maximális betűk számát.
 	 * @param dialogStage az ablak.
+	 * @param i a maximális betűk száma.
 	 */
-	public void setDialogStage(Stage dialogStage) {
+	public void setDialogStage(Stage dialogStage, int i) {
 		this.dialogStage = dialogStage;
+		maxLetters=i;
+		letterSize.setText(Integer.toString(maxLetters));
+		
 	}
 	
    
 
-	
+
 	/**
-	 * Visszaadja a {@link hu.norbi.modell.Player} neveit.
-	 * @return a játékos neve
+	 * Visszaadja a maximálisan lerakható bettűk számát.
+	 * @return a betűk száma.
 	 */
-	public List<String> getName() {
-		return name;
+	public int getMaxLetters() {
+		return maxLetters;
 	}
 
 
-	@FXML
-	private void Vege(){
-		System.out.print("bezar");
-	}
 	
 	@FXML
-	private void Ok() {
+	private void send() {
 		if(isInputValid()) {
 			
 			
-			name.add(firstPlayer.getText().toString());
-			name.add(secondPlayer.getText().toString());
+			maxLetters=Integer.parseInt(letterSize.getText().toString());
 			dialogStage.close();
 		}
 	}
 	
-	@FXML
-	private void handleCancel() {
-		dialogStage.close();
-	}
-	
+
+
 	private boolean isInputValid() {
 		String errorMessage = "";
 		
-		if(firstPlayer.getText() == null || firstPlayer.getText().length() == 0) {
-			errorMessage += "Nem adta meg az első játékos nevét!\n";
+		if(letterSize.getText() == null || letterSize.getText().length() == 0) {
+			errorMessage += "Nem adott meg értéket!\n";
 		}
-		if(secondPlayer.getText() == null || secondPlayer.getText().length() == 0) {
-			errorMessage += "Nem adta meg a második játékos nevét!\n";
+		if(Integer.parseInt(letterSize.getText().toString())<0) {
+			errorMessage += "Nulla vagy nullánál nagyobb egész szám adható meg!";
 		}
+
 		
 		
 		if(errorMessage.length() == 0) {

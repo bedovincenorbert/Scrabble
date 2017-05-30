@@ -1,6 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <name>Scrable</name>
+  <groupId>hu.norbi.beadando</groupId>
+  <artifactId>Scrabble</artifactId>
+  <version>1.0</version>
+  <name>Scrabble</name>
   <description>This is my project, what I made in the spring semester of 2017 in University of Debrecen</description>
   <url>https://github.com/bedonorbert/Scrabble</url>
   <developers>
@@ -60,9 +63,6 @@
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-javadoc-plugin</artifactId>
               <version>2.10.4</version>
-              <configuration>
-                  <show>private</show>
-              </configuration>
           </plugin>
           <plugin>
               <groupId>org.apache.maven.plugins</groupId>
@@ -147,9 +147,5 @@
             </plugin>
 		</plugins>
 	</build>
-  
-  <groupId>hu.norbi.beadando</groupId>
-  <artifactId>Scrable</artifactId>
-  <version>1.0</version>
  
 </project>
